@@ -79,7 +79,7 @@ def get_term_dfs(input_df: pd.DataFrame,
 
 
 def show_term(mayor: dict):
-    df = load_data("../isut-df-18022023-15-07.pkl")
+    df = load_data("isut-df-18022023-15-07.pkl")
     df = preprocess_df(df)
     infra_df, others = get_term_dfs(df, mayor["start"], mayor["end"])
     for i, df in enumerate([infra_df, others]):
