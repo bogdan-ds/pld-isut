@@ -6,6 +6,13 @@ Plovdiv municipality website.
 
 Download code is available in `download.py`.
 
+## Install
+
+Install requirements:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
